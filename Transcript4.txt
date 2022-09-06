@@ -1,0 +1,287 @@
+
+Game 4: Start with an X in the middle of top edge; then let computer choose all subsequent moves.
+pruning off
+
+
+(base) client-10-229-186-110:A2 jiwonlee$ ./ttt
+Welcome to Tic-Tac-Toe
+
+>move X A 2
+ .  X  . 
+ .  .  . 
+ .  .  . 
+
+
+>choose O
+move: 
+ O  X  . 
+ .  .  . 
+ .  .  . 
+
+mm score: 0
+move: 
+ .  X  O 
+ .  .  . 
+ .  .  . 
+
+mm score: 0
+move: 
+ .  X  . 
+ O  .  . 
+ .  .  . 
+
+mm score: -0.5
+move: 
+ .  X  . 
+ .  O  . 
+ .  .  . 
+
+mm score: 0
+move: 
+ .  X  . 
+ .  .  O 
+ .  .  . 
+
+mm score: -0.5
+move: 
+ .  X  . 
+ .  .  . 
+ O  .  . 
+
+mm score: -0.5
+move: 
+ .  X  . 
+ .  .  . 
+ .  O  . 
+
+mm score: 0
+move: 
+ .  X  . 
+ .  .  . 
+ .  .  O 
+
+mm score: -0.5
+number of nodes searched: 63904
+ O  X  . 
+ .  .  . 
+ .  .  . 
+
+
+>choose X
+move: 
+ O  X  X 
+ .  .  . 
+ .  .  . 
+
+mm score: 0.5
+move: 
+ O  X  . 
+ X  .  . 
+ .  .  . 
+
+mm score: 0
+move: 
+ O  X  . 
+ .  X  . 
+ .  .  . 
+
+mm score: 0
+move: 
+ O  X  . 
+ .  .  X 
+ .  .  . 
+
+mm score: 0.5
+move: 
+ O  X  . 
+ .  .  . 
+ X  .  . 
+
+mm score: 0
+move: 
+ O  X  . 
+ .  .  . 
+ .  X  . 
+
+mm score: 0.5
+move: 
+ O  X  . 
+ .  .  . 
+ .  .  X 
+
+mm score: 0
+number of nodes searched: 8751
+ O  X  . 
+ X  .  . 
+ .  .  . 
+
+
+>choose O
+move: 
+ O  X  O 
+ X  .  . 
+ .  .  . 
+
+mm score: -0.7
+move: 
+ O  X  . 
+ X  O  . 
+ .  .  . 
+
+mm score: 0
+move: 
+ O  X  . 
+ X  .  O 
+ .  .  . 
+
+mm score: 0
+move: 
+ O  X  . 
+ X  .  . 
+ O  .  . 
+
+mm score: -0.7
+move: 
+ O  X  . 
+ X  .  . 
+ .  O  . 
+
+mm score: 0
+move: 
+ O  X  . 
+ X  .  . 
+ .  .  O 
+
+mm score: -0.7
+number of nodes searched: 1464
+ O  X  . 
+ X  O  . 
+ .  .  . 
+
+
+>choose X
+move: 
+ O  X  X 
+ X  O  . 
+ .  .  . 
+
+mm score: 0.9
+move: 
+ O  X  . 
+ X  O  X 
+ .  .  . 
+
+mm score: 0.9
+move: 
+ O  X  . 
+ X  O  . 
+ X  .  . 
+
+mm score: 0.9
+move: 
+ O  X  . 
+ X  O  . 
+ .  X  . 
+
+mm score: 0.9
+move: 
+ O  X  . 
+ X  O  . 
+ .  .  X 
+
+mm score: 0
+number of nodes searched: 229
+ O  X  . 
+ X  O  . 
+ .  .  X 
+
+
+>choose O
+move: 
+ O  X  O 
+ X  O  . 
+ .  .  X 
+
+mm score: 0
+move: 
+ O  X  . 
+ X  O  O 
+ .  .  X 
+
+mm score: 0
+move: 
+ O  X  . 
+ X  O  . 
+ O  .  X 
+
+mm score: 0
+move: 
+ O  X  . 
+ X  O  . 
+ .  O  X 
+
+mm score: 0
+number of nodes searched: 60
+ O  X  O 
+ X  O  . 
+ .  .  X 
+
+
+>choose X
+move: 
+ O  X  O 
+ X  O  X 
+ .  .  X 
+
+mm score: 0.9
+move: 
+ O  X  O 
+ X  O  . 
+ X  .  X 
+
+mm score: 0
+move: 
+ O  X  O 
+ X  O  . 
+ .  X  X 
+
+mm score: 0.9
+number of nodes searched: 13
+ O  X  O 
+ X  O  . 
+ X  .  X 
+
+
+>choose O
+move: 
+ O  X  O 
+ X  O  O 
+ X  .  X 
+
+mm score: -0.9
+move: 
+ O  X  O 
+ X  O  . 
+ X  O  X 
+
+mm score: 0
+number of nodes searched: 4
+ O  X  O 
+ X  O  . 
+ X  O  X 
+
+
+>choose X
+move: 
+ O  X  O 
+ X  O  X 
+ X  O  X 
+
+mm score: 0
+number of nodes searched: 1
+ O  X  O 
+ X  O  X 
+ X  O  X 
+
+It is a Draw
+(base) client-10-229-186-110:A2 jiwonlee$ 

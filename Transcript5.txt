@@ -1,0 +1,206 @@
+
+Game 5: Let’s see if we can force a win for X by making a sub-optimal move for O. Try placing an X in the middle and O on the side; then let the computer play the rest of the game against itself.
+pruning off
+
+
+(base) client-10-229-186-110:A2 jiwonlee$ ./ttt
+Welcome to Tic-Tac-Toe
+
+>move X B 2
+ .  .  . 
+ .  X  . 
+ .  .  . 
+
+
+>move O A 2
+ .  O  . 
+ .  X  . 
+ .  .  . 
+
+
+>choose X
+move: 
+ X  O  . 
+ .  X  . 
+ .  .  . 
+
+mm score: -0.6
+move: 
+ .  O  X 
+ .  X  . 
+ .  .  . 
+
+mm score: -0.6
+move: 
+ .  O  . 
+ X  X  . 
+ .  .  . 
+
+mm score: -0.6
+move: 
+ .  O  . 
+ .  X  X 
+ .  .  . 
+
+mm score: -0.6
+move: 
+ .  O  . 
+ .  X  . 
+ X  .  . 
+
+mm score: -0.6
+move: 
+ .  O  . 
+ .  X  . 
+ .  X  . 
+
+mm score: 0
+move: 
+ .  O  . 
+ .  X  . 
+ .  .  X 
+
+mm score: -0.6
+number of nodes searched: 7063
+ X  O  . 
+ .  X  . 
+ .  .  . 
+
+
+>choose O
+move: 
+ X  O  O 
+ .  X  . 
+ .  .  . 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ O  X  . 
+ .  .  . 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ .  X  O 
+ .  .  . 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ .  X  . 
+ O  .  . 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ .  X  . 
+ .  O  . 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ .  X  . 
+ .  .  O 
+
+mm score: -0.7
+number of nodes searched: 1060
+ X  O  . 
+ .  X  . 
+ .  .  O 
+
+
+>choose X
+move: 
+ X  O  X 
+ .  X  . 
+ .  .  O 
+
+mm score: 0
+move: 
+ X  O  . 
+ X  X  . 
+ .  .  O 
+
+mm score: -0.8
+move: 
+ X  O  . 
+ .  X  X 
+ .  .  O 
+
+mm score: 0
+move: 
+ X  O  . 
+ .  X  . 
+ X  .  O 
+
+mm score: -0.8
+move: 
+ X  O  . 
+ .  X  . 
+ .  X  O 
+
+mm score: 0
+number of nodes searched: 237
+ X  O  . 
+ X  X  . 
+ .  .  O 
+
+
+>choose O
+move: 
+ X  O  O 
+ X  X  . 
+ .  .  O 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ X  X  O 
+ .  .  O 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ X  X  . 
+ O  .  O 
+
+mm score: -0.9
+move: 
+ X  O  . 
+ X  X  . 
+ .  O  O 
+
+mm score: -0.9
+number of nodes searched: 36
+ X  O  O 
+ X  X  . 
+ .  .  O 
+
+
+>choose X
+move: 
+ X  O  O 
+ X  X  X 
+ .  .  O 
+
+mm score: -1
+move: 
+ X  O  O 
+ X  X  . 
+ X  .  O 
+
+mm score: -1
+move: 
+ X  O  O 
+ X  X  . 
+ .  X  O 
+
+mm score: 0.9
+number of nodes searched: 6
+ X  O  O 
+ X  X  X 
+ .  .  O 
+
+X wins!
+(base) client-10-229-186-110:A2 jiwonlee$ 
